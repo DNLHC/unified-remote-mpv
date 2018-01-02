@@ -101,6 +101,10 @@ actions.playback_speed_up = function()
   kb.text("]");
 end
 
+actions.toggle_audio_track = function()
+  kb.stroke("shift", "3")
+end
+
 --@help Reset playback speed
 actions.playback_speed_reset = function()
   kb.stroke("backspace");
