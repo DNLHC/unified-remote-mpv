@@ -24,12 +24,12 @@ end
 
 --@help Previous track
 actions.previous = function()
-  kb.stroke("<");
+  kb.stroke("pageup");
 end
 
 --@help Next track
 actions.next = function()
-  kb.stroke(">");
+  kb.stroke("pagedown");
 end
 
 --@help Skip forward 10 secs
